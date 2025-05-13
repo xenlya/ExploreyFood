@@ -1,0 +1,256 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    background-image: url(Index/wallpaper.jpg);
+    /* background-color: #fe6601; */
+    background-repeat: inherit;
+}
+
+header p {
+    font-size: 15px;
+    padding-bottom: 10px;
+    /* color: dimgray; */
+}
+#titless{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    /* background-color: gray; */
+    border-radius: 5%;
+}
+
+.container_2 {
+    display: flex;
+    flex-wrap: initial;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(228, 231, 244);
+    border-radius: 5%;
+}
+
+a{
+    color: black;
+}
+#name2 {
+    text-align: center;
+}
+
+#home {
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#about {
+    text-align: center;
+    /* font-size: 20px; */
+}
+
+.box_2 {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+    background-color: #fff;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 10px; 
+}
+
+.box_2:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.box_2 img {
+    width: 100%;
+    height: 100%; 
+    object-fit: contain; 
+}
+
+.box_2 h2 {
+    margin: 10px 0;
+    color: #000000; 
+    font-size: 18px;
+}
+
+.box_2 p {
+    color: #777;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.box_2 p a {
+    color: #e67e22;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.box_2 p a:hover {
+    text-decoration: underline;
+}
+
+.home a:hover{
+    /* position: absolute; */
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    background-color: #a9ee90;
+    /* visibility: hidden; */
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.disclaimer{
+    text-align: center left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: normal;
+    color: red;
+    outline-color: black;
+}
+
+.service-item{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    /* font-weight: bold; */
+    text-align: justify;
+}
+
+
+/* about.html */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+    background-image: url(Index/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg);
+    background-repeat:repeat-y;
+}
+
+header,h3,p{
+    text-align: center;
+    font-size: 20px;
+}
+
+header>p{
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #d35400;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #e67e22;
+    font-size: 36px;
+}
+
+.outer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+    color: burlywood;
+}
+
+.box {
+    width: 250px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.6s ease;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.box:hover {
+    transform: translateY(-15px);
+}
+
+.box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.box h2 {
+    margin: 20px 0 10px;
+    color: #e67e22;
+    font-size: 24px;
+}
+
+.box p {
+    color: #777;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+/* Button Styles */
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #e67e22;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+#team-link{
+    color: black;
+}
+.buttons{
+    text-align: center;
+}
+.btn:hover {
+    background-color: #d35400;
+}
+
+
