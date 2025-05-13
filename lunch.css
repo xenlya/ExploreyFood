@@ -16,12 +16,12 @@ header {
 }
 
 header h1 {
-    font-size: 2em;
+    font-size: 20px;
 }
 
 hr {
     margin: 10px auto;
-    width: 1400px;
+    width: auto;
     border: 1px solid #f9f9f9;
 }
 
@@ -52,13 +52,13 @@ h2 {
 h3 {
     margin-top: 5px;
     margin-bottom: 10px;
-    font-size: 1.28em;
+    font-size: 18px;
 }
 
 h4 {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 1.2em;
+    font-size: 20px;
 }
 
 p, ol {
@@ -66,7 +66,7 @@ p, ol {
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 20px;
 }
 
 ol {
@@ -74,11 +74,11 @@ ol {
 }
 
 li {
-    font-size: 1.1em;
+    font-size: 17px;
 }
 
 table {
-    width: 1420px;
+    width: auto;
     border-collapse: collapse;
     margin-top: 15px;
 }
@@ -98,5 +98,5 @@ caption {
     font-weight: bold;
     margin-bottom: 10px;
     text-align: left;
-    font-size: 1.25em
+    font-size: 20px;
 }
