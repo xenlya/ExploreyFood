@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Feedback </title>
+        <meta charset = "UTF-8">
+        <meta name="author" content ="Vivien Lee Zhi Ling">
+        <meta name ="description" content ="feedback for Multicutural food website,breakfast,lunch,dinner,dessert">
+        <meta name ="keywords" content ="feedback,breakfast,lunch,dinner,dessert">
+        <link rel ="stylesheet" type ="text/css" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Feedback</h1>
+            <p> Thank you for choosing our website as your reference for your meals.</p>
+        </header>
+
+        <article>
+            <h2>Send Us Your Thoughts</h2>
+            <form name ="feedback" action="mailto:vivienlee0128@gmail.com0" method="post">
+                <table>
+                    <tr>
+                        <td>
+                            <fieldset>
+                                <legend>Personal Information </legend>
+                                <td><label for ="name">Name:</label></td>
+                                <td><input type ="text" name="name" placeholder ="Include your first and last name" size =40 required="required" id="name"></td>
+
+                                <td><label for ="email">Email:</label></td>
+                                <td><input type ="text" name="email" required="required" id="email"></td>                                
+                            </fieldset>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <fieldset>
+                                <legend>Tell us about your experience</legend>
+
+                                <label for ="favourite">Which is your favourite meal?</label>
+                                <select id="favourite" name ="favourite">
+                                    <option value =" ">----Choose-----</option>
+                                    <option value="breakfast">Breakfast</option>
+                                    <option value="lunch">Lunch</option>
+                                    <option value="dinner">Dinner</option>
+                                    <option value="dessert">Dessert</option>
+                                </select>
+
+                                <label>Is the website easy to use ?</label>
+                                <td><input type="radio" name="usability" value="yes">YES</td>
+                                <td><input type ="radio" name="usability" value="no">NO</td>
+                            </fieldset>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <fieldset>
+                                <legend>Suggestions</legend>
+
+                                <label for ="comments">What can we improve ? </label>
+                                <textarea id="comments" name="comments" placeholder="Write your opinion....."></textarea> 
+                            </fieldset>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type ="submit" value="Submit Feedback">
+                            <input type="reset" value="Clear Form">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </article>
+
+    </body>
+</html>
