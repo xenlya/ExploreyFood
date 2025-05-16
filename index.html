@@ -8,64 +8,65 @@
 </head>
 <body class="index">
     <header>
-        <img src="Image/Logo.png" id="titless" title="Explorey Food">
-        <!-- <h1 id="name2">Explorey Food</h1> -->
-            <div class="container">
-                <div class="home">
-                    <p id="home"><a href="index.html">Home</a></p>
-                </div>
-                <div class="home">
-                    <p id="team"><a href="MtT.html">Meet The Team</a></p>
-                </div>
-                <div class="home">
-                    <p id="about"><a href="feedback.html">Feedback</a></p>
-                </div>
-                
-            </div>
+        <img src="Image/Logo.png" id="titless" title="Explorey Food" class="logo">
         
+        <nav id="main-navigation" class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="breakfast.html" class="nav-link">Breakfast</a></li>
+                <li class="nav-item"><a href="Lunch.html" class="nav-link">Lunch</a></li>
+                <li class="nav-item"><a href="Dinner.html" class="nav-link">Dinner</a></li>
+                <li class="nav-item"><a href="dessert.html" class="nav-link">Dessert</a></li>
+                <li class="nav-item"><a href="MtT.html" class="nav-link">Meet The Team</a></li>
+                <li class="nav-item"><a href="feedback.html" class="nav-link">Feedback</a></li>
+            </ul>
+        </nav>
     </header>
 
     <article>
-        <section id="home">
+        <section id="hero" class="hero-section">
             <h2 class="title">Welcome to our Website</h2>
+            <p class="subtitle">Food that unite people</p>
         </section>
 
             <!-- <h2 id="title">Welcome to Explorey Food: A Culinary Journey Through Malaysia</h2> -->
             <div class="service-container">
                 <div class="service-item">
-                    <h3 class="info">Information for this Website</h3>
+                    <h2 class="info">Information for this Website</h2>
                         <p class="paragraph">At Explorey Food, we take you on a flavorful journey through some of Asia’s most beloved culinary 
                             cultures—Chinese, Indian, Korean, and Japanese—from sunrise breakfasts to late-night dinners, and sweet treats in between. 
                             Our mission is to celebrate the beauty and diversity of food traditions across 
                             Asia by exploring what people eat at every part of the day.</p>
-                    <div>
-                        <div class="outer-container">
-                            <div class="container_2">
-                                <div class="box_2" id="move">
-                                    <img src="Image/debbie-tea-LO7rNP0LRro-unsplash.jpg" alt="Benny">
-                                    <h2>Breakfast</h2>
-                                    <p class="chinese"><a href="breakfast.html">Click here</a></p>
-                                </div>
-                                <div class="box_2" id="move">
-                                    <img src="Image/marion-botella-uaHShoIDGeo-unsplash.jpg" alt="Benny">
-                                    <h2>Lunch</h2>
-                                    <p class="indian"><a href="Lunch.html">Click here</a></p>
-                                </div>
-                                <div class="box_2" id="move">
-                                    <img src="Image/cj-dayrit-pvCxT_UZlhI-unsplash.jpg" alt="Benny">
-                                    <h2>Dinner</h2>
-                                    <p class="korean"><a href="Dinner.html">Click here</a></p>
-                                </div>
-                                <div class="box_2" id="move">
-                                    <img src="Image/charlesdeluvio-nAV0ojj-m4k-unsplash.jpg" alt="Benny">
-                                    <h2>Dessert</h2>
-                                    <p class="japanese"><a href="dessert.html">Click Here</a></p>
-                                </div>
-                            </div>
+                </div>
+            </div>
+
+            <section id="food-categories" class="categories-section">
+                <h2>Explore By Meal</h2>
+                <div class="outer-container">
+                    <div class="container_2">
+                        <div class="box_2" id="move">
+                            <img src="Image/debbie-tea-LO7rNP0LRro-unsplash.jpg" alt="Asian breakfast foods">
+                            <h3>Breakfast</h3>
+                            <p class="chinese"><a href="breakfast.html">Explore Breakfast Options</a></p>
+                        </div>
+                        <div class="box_2" id="move">
+                            <img src="Image/marion-botella-uaHShoIDGeo-unsplash.jpg" alt="Asian lunch dishes">
+                            <h3>Lunch</h3>
+                            <p class="indian"><a href="Lunch.html">Discover Lunch Specials</a></p>
+                        </div>
+                        <div class="box_2" id="move">
+                            <img src="Image/cj-dayrit-pvCxT_UZlhI-unsplash.jpg" alt="Asian dinner meals">
+                            <h3>Dinner</h3>
+                            <p class="korean"><a href="Dinner.html">View Dinner Options</a></p>
+                        </div>
+                        <div class="box_2" id="move">
+                            <img src="Image/charlesdeluvio-nAV0ojj-m4k-unsplash.jpg" alt="Asian desserts">
+                            <h3>Dessert</h3>
+                            <p class="japanese"><a href="dessert.html">Try Sweet Treats</a></p>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
         <div class="disclaimer">
             <p>Disclaimer: This website is created for education and non-commercial use only. It is an assignment for completion of unit, DBI211 Fundamentals of Web Technology based on the Foundation (IT/Multimedia) course from Swinburne University of Technology Sarawak Campus.</p>

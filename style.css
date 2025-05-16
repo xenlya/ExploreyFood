@@ -2,10 +2,11 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: lighter;
-    background-image: url(Image/wallpaper.jpg);
+    background-image: url(https://images.unsplash.com/photo-1731018804371-16e02792b8d8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     /* background-color: #fe6601; */
     background-repeat: inherit;
 }
+
 .colour-title {
     background-color: #3498db; /* blue background */
     padding: 20px;
@@ -140,8 +141,8 @@ a{
     font-weight: bold;
     font-size: 20px;
     font-style: normal;
-    color: red;
-    outline-color: black;
+    color: rgb(0, 0, 0);
+    outline-color: rgb(255, 255, 255);
 }
 
 .service-item{
@@ -180,7 +181,7 @@ a{
 /* about.html */
 
 
-/* Reset and Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -193,24 +194,142 @@ a{
     color: #333;
     background-color: #777;
     padding: 20px;
-    background-image: url(dominik-schroder-FIKD9t5_5zQ-unsplash.jpg);
+    background-image: url(https://images.unsplash.com/photo-1731018804371-16e02792b8d8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-repeat:round;
 }
 
-.MtT {
+/* .MtT {
     text-align: center;
     margin-bottom: 40px;
     color: #e67e22;
     font-size: 36px;
 }
 
-.groyp_mtt{
+.gorup_mtt{
     text-align: center;
     margin-bottom: 40px;
     color: #000000;
     font-size: 30px;
+} */
+
+.page-title {
+    color: #333;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.page-subtitle{
+    color: #666;
+    font-size: 24px;
+    text-align: center;
 }
 
+/* testing part member */
+ul,li{
+    list-style-type: none;
+}
+.team-section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.team-member {
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+}
+
+.member-image {
+    height: 250px;
+    overflow: hidden;
+}
+
+.member-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.team-member:hover .member-image img {
+    transform: scale(1.05);
+}
+
+.member-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.member-info h2 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.member-title {
+    color: #e74c3c;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+.member-role {
+    color: #666;
+    margin: 0;
+}
+
+.team-navigation {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.primary-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.primary-btn:hover {
+    background-color: #c0392b;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Team Layout */
+@media (max-width: 768px) {
+    .team-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .team-member {
+        width: 100%;
+        max-width: 400px;
+    }
+}
 .head_body{
     text-align: center;
     font-size: 18px;
@@ -307,6 +426,8 @@ a{
     padding: 0;
     background-color: #89c8ec;
     color: #1e2d76;
+    background-image: url(https://images.unsplash.com/photo-1731018804371-16e02792b8d8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
 }
 
 .headfoot {
@@ -339,35 +460,6 @@ th,td{
     padding : 5px;
     text-align: center;
 }
-/* 
-nav {
-    background-color: #ffb347;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    display: inline-block;
-    margin: 0;
-}
-
-nav a {
-    display: inline-block;
-    padding: 12px 18px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    background-color: #ff914d;
-} */
-
 .list{
     font-size: 16px;
     padding-left: 20px;
@@ -447,6 +539,8 @@ footer a:hover {
     padding: 0;
     background-color: #fff5f5;
     color: #333;
+    background-image: url(https://images.unsplash.com/photo-1731018804371-16e02792b8d8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
 }
 
 .headfoot_2 {
@@ -488,8 +582,8 @@ figcaption {
     font-style: italic;
 }
 
-h2 {
-    color: #e64980;
+.h2_breakfast {
+    color: #000000;
     border-bottom: 2px solid #ffd8e3;
     padding-bottom: 10px;
 }
@@ -615,10 +709,70 @@ fieldset {
     border: none;
     margin-bottom: 30px;
 }
-/* 
-footer {
+
+
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+    }
+    
+    .nav-link {
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+.header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+
+.main-nav {
+    background-color: #f8f9fa;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 15px auto;
+    max-width: 90%;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border-radius: 30px;
+}
+
+.nav-link:hover {
+    background-color: #e9ecef;
+    transform: translateY(-3px);
+}
+
+.nav-link.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.subtitle{
     text-align: center;
-    font-size: 13px;
-    color: #5f6368;
-    margin: 40px auto;
-} */
+    font-size: 24px;
+    font-weight: bold;
+}
