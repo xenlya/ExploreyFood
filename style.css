@@ -164,13 +164,21 @@ a{
     background-repeat:round;
 }
 
-h1,h3,.head_body {
+h1,h3 {
     text-align: center;
     margin-bottom: 40px;
     color: #e67e22;
     font-size: 36px;
 }
 
+.head_body{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #000000;
+    
+}
 /* Container Styles */
 .outer-container {
     max-width: 1200px;
