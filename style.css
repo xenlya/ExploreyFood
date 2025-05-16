@@ -143,6 +143,30 @@ a{
     text-align: justify;
 }
 
+/* Footer styles */
+.site-footer {
+    background-color: #f8f8f8;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    border-top: 1px solid #ccc;
+}
+
+.site-footer a {
+    color: #0077cc;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-container p {
+    margin: 5px 0;
+}
+
 
 /* about.html */
 
@@ -177,7 +201,7 @@ h1,h3 {
     font-weight: bold;
     text-decoration: underline;
     color: #000000;
-    
+
 }
 /* Container Styles */
 .outer-container {
