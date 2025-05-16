@@ -1,185 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title> Feedback </title>
-        <meta charset = "UTF-8">
-        <meta name="author" content ="Vivien Lee Zhi Ling">
-        <meta name ="description" content ="feedback for Multicutural food website,breakfast,lunch,dinner,dessert">
-        <meta name ="keywords" content ="feedback,breakfast,lunch,dinner,dessert">
+<head>
+  <title>Feedback</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Vivien Lee Zhi Ling,Fredly Benny">
+  <meta name="description" content="Feedback for Multicultural food website: breakfast, lunch, dinner, dessert">
+  <meta name="keywords" content="feedback, breakfast, lunch, dinner, dessert">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-    </head>
+<body class="feedback_body">
+  <header class="feeback_header_feedback">
+    <h1 class="h1_feedback">Feedback</h1>
+    <p>Thank you for choosing our website as your reference for your meals.</p>
+  </header>
 
-    <body>
-        <header>
-            <h1>Feedback</h1>
-            <p> Thank you for choosing our website as your reference for your meals.</p>
-        </header>
+  <article>
+    <div class="form-container_feedback">
+      <h2 class="h1_feedback">Send Us Your Thoughts</h2>
+      <form name="feedback" action="mailto:vivienlee0128@gmail.com" method="post" enctype="text/plain">
 
-        <article>
-            <h2>Send Us Your Thoughts</h2>
-            <form name ="feedback" action="mailto:vivienlee0128@gmail.com0" method="post" enctype ="text/plain">
-                <fieldset>
-                    <legend><strong> Personal Information</strong> </legend>
-                    <table>
-                        <tr>
-                            <td>1.</td>
-                            <td><label for ="name">Name</label></td>
-                            <br>
-                            <td><input type ="text" name="name" placeholder="Enter your name here" size="40" required="required" id="name"></td>
-                        </tr>
+        <fieldset>
+          <legend><strong>Personal Information</strong></legend>
 
-                        <tr>
-                            <td>2.</td><br>
-                            <td><label for ="email">Email</label></td>
-                            <br>
-                            <td><input type ="text" name="email" placeholder="Enter your email here" size="40" required="required" id="email"></td>
-                        </tr>
-                    </table>
-                </fieldset>    
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name here" required>
 
-                    
-                    <fieldset>
-                        <legend><strong>Tell us about your experience</strong></legend>
-                    <table>
-                        <p>1. When did you last visit our site?</p>
-                        
-                            <label for="visit-date">Date:</label>
-                            <input type ="date" id="visit-date" name="visit-date"><br>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email here" required>
+        </fieldset>
 
-                            <label for="visit-time">Time:</label>
-                            <input type="time" id="visit-time" name="visit-time">   
-                        
-                       
-                        <p> 2.Choose your favourite meal:</p>
+        <fieldset>
+          <legend><strong>Tell us about your experience</strong></legend>
 
-                            <div class ="interface" required>
-                        
-                            <input type="checkbox" id="breakfast" name="favourite_meal" value="Breakfast">
-                            <label for ="breakfast">Breakfast</label><br>
+          <label for="visit-date">1. When did you last visit our site?</label>
+          <input type="date" id="visit-date" name="visit-date">
 
-                            <input type="checkbox" id="lunch" name="favourite_meal" value="Lunch">
-                            <label for="lunch">Lunch</label><br>
+          <label for="visit-time">Time:</label>
+          <input type="time" id="visit-time" name="visit-time">
 
-                            <input type="checkbox" id="dinner" name="favourite_meal" value="Dinner">
-                            <label for="dinner">Dinner</label><br>
+          <label>2. Choose your favourite meal:</label>
+          <label><input type="checkbox" name="favourite_meal" value="Breakfast">Breakfast</label>
+          <label><input type="checkbox" name="favourite_meal" value="Lunch">Lunch</label>
+          <label><input type="checkbox" name="favourite_meal" value="Dinner">Dinner</label>
+          <label><input type="checkbox" name="favourite_meal" value="Dessert">Dessert</label>
 
-                            <input type="checkbox" id="dessert" name="favourite_meal" value="dessert">
-                            <label for="dessert">Dessert</label>
-                            </div>
-                        
+          <label>3. Choose your favourite breakfast:</label>
+          <label><input type="radio" name="favourite_breakfast" value="Steamed Bun">Steamed Bun</label>
+          <label><input type="radio" name="favourite_breakfast" value="Idli Sambar">Idli Sambar</label>
+          <label><input type="radio" name="favourite_breakfast" value="Gimbap">Gimbap</label>
+          <label><input type="radio" name="favourite_breakfast" value="Natto">Natto</label>
 
-                        <p> 3.Choose your favourite breakfast:</p>
-                       
-                            <input type="radio" id="chinese" name="favourite_breakfast" value="Chinese">
-                            <label for ="chinese">Steamed Bun</label><br>
+          <label>4. Choose your favourite lunch:</label>
+          <label><input type="radio" name="favourite_lunch" value="Wanton Soup">Wanton Soup</label>
+          <label><input type="radio" name="favourite_lunch" value="Mutton Biryani">Mutton Biryani</label>
+          <label><input type="radio" name="favourite_lunch" value="Tteokbokki">Tteokbokki</label>
+          <label><input type="radio" name="favourite_lunch" value="Yakisoba">Yakisoba</label>
 
-                            <input type="radio" id="indian" name="favourite_breakfast" value="Indian">
-                            <label for="indian">Idli Sambar</label><br>
+          <label>5. Choose your favourite dinner:</label>
+          <label><input type="radio" name="favourite_dinner" value="Chow Mein">Chow Mein</label>
+          <label><input type="radio" name="favourite_dinner" value="Methi Pakoda Kadhi">Methi Pakoda Kadhi</label>
+          <label><input type="radio" name="favourite_dinner" value="Bibimbap">Bibimbap</label>
+          <label><input type="radio" name="favourite_dinner" value="Beef Sukiyaki">Beef Sukiyaki</label>
 
-                            <input type="radio" id="korean" name="favourite_breakfast" value="Korean">
-                            <label for="korean">Gimbap</label><br>
+          <label>6. Choose your favourite dessert:</label>
+          <label><input type="radio" name="favourite_dessert" value="Chinese">Chinese</label>
+          <label><input type="radio" name="favourite_dessert" value="Indian">Indian</label>
+          <label><input type="radio" name="favourite_dessert" value="Korean">Korean</label>
+          <label><input type="radio" name="favourite_dessert" value="Japanese">Japanese</label>
 
-                            <input type="radio" id="japanese" name="favourite_breakfast" value="japanese">
-                            <label for="japanese">Natto</label>
-                        
+          <label>7. Is the website easy to use?</label>
+          <label><input type="radio" name="usability" value="yes">Yes</label>
+          <label><input type="radio" name="usability" value="no">No</label>
 
-                        <p> 4.Choose your favourite lunch:</p>
-                        
-                            <input type="radio" id="chinese" name="favourite_lunch" value="Chinese">
-                            <label for ="chinese">Wanton Soup</label><br>
+          <label for="interface">8. How is the interface?</label>
+          <select name="interface" id="interface" required>
+            <option value="">----Choose-----</option>
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="average">Average</option>
+            <option value="poor">Poor</option>
+          </select>
 
-                            <input type="radio" id="indian" name="favourite_lunch" value="Indian">
-                            <label for="indian">Mutton Biryani</label><br>
+          <label for="response_time">9. How was the response time?</label>
+          <select name="response_time" id="response_time" required>
+            <option value="">----Choose----</option>
+            <option value="slow">Slow</option>
+            <option value="average">Average</option>
+            <option value="excellent">Excellent</option>
+          </select>
+        </fieldset>
 
-                            <input type="radio" id="korean" name="favourite_lunch" value="Korean">
-                            <label for="korean">Tteokbokki</label><br>
+        <fieldset>
+          <legend><strong>Suggestions</strong></legend>
+          <label for="comments">What can we improve?</label>
+          <textarea id="comments" name="comments" rows="5" placeholder="Write your opinion here..."></textarea>
+        </fieldset>
 
-                            <input type="radio" id="japanese" name="favourite_lunch" value="japanese">
-                            <label for="japanese">Yakisoba</label>
-                        
+        <input type="submit" value="Submit Feedback">
+        <input type="reset" value="Clear Form">
+      </form>
+    </div>
 
-                        <p> 5.Choose your favourite dinner:</p>
-                        
-                            <input type="radio" id="chinese" name="favourite_dinner" value="Chinese">
-                            <label for ="chinese">Chow Mein</label><br>
-
-                            <input type="radio" id="indian" name="favourite_dinner" value="Indian">
-                            <label for="indian">Methi Pakoda Kadhi</label><br>
-
-                            <input type="radio" id="korean" name="favourite_dinner" value="Korean">
-                            <label for="korean">Bibimbap</label><br>
-
-                            <input type="radio" id="japanese" name="favourite_dinner" value="japanese">
-                            <label for="japanese">Beef SukiyakiS</label>
-                        
-
-                        <p> 6.Choose your favourite dessert:</p>
-                        
-                            <input type="radio" id="chinese" name="favourite_dessert" value="Chinese">
-                            <label for ="chinese">Chinese</label><br>
-
-                            <input type="radio" id="indian" name="favourite_dessert" value="Indian">
-                            <label for="indian">Indian</label><br>
-
-                            <input type="radio" id="korean" name="favourite_dessert" value="Korean">
-                            <label for="korean">Korean</label><br>
-
-                            <input type="radio" id="japanese" name="favourite_dessert" value="japanese">
-                            <label for="japanese">Japanese</label>
-                        
-
-                        <p> 7.Is the website easy to use?</p>
-                        
-                            <input type="radio" id="usability" name="usability_yes" value="yes" id="yes">
-                            <label for ="yes">Yes</label>
-                            <input type="radio" id="usability" name="usability_no" value="no">
-                            <label for="no">No</label>
-                        
-
-                        <p> 8.How is the interface ?</p>
-                        
-                            <select name ="interface" required>
-                                <option value="">----Choose-----</option>
-                                <option value="excellent">Excellent</option>
-                                <option value="good">Good</option>
-                                <option value="average">Average</option>
-                                <option value="poor">Poor</option>
-                            </select>
-                       
-
-                        <p>9.How was the response time?</p>
-                        
-                            <select name ="response time" required>
-                                <option value="">----Choose----</option>
-                                <option value="slow">Slow</option>
-                                <option value="average">Average</option>
-                                <option value="excellent">Excellent</option>
-                            </select>
-                        
-                    </table>
-                </fieldset>  
-                
-                <fieldset>
-                    <legend><strong>Suggestions</strong></legend>
-                    <table>
-                        <label for ="comments">What can we improve?</label><br>
-                        <textarea id ="comments" name="comments" rows="5" cols="50" placeholder="Write your opinion here......."></textarea>
-                    </table>
-
-                    <br>
-                </fieldset>   
-
-                <br> 
-
-                    <input type="submit" value="Submit Feedback">
-                    <input type="reset" value="Clear Value">
-    
-                
-            </form>
-            
-            <footer>
-                <p>&copy; Group 001 | Last updated : 12 /5/2025 </a></p>
-            </footer>
-    </article>
-    </body>
-    </html>        
+    <footer>
+      <p>&copy; Group 001 | Last updated: 12/5/2025</p>
+    </footer>
+  </article>
+</body>
+</html>
