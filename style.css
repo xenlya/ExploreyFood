@@ -2,11 +2,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: lighter;
-    background-image: url(Index/wallpaper.jpg);
+    background-image: url(Image/wallpaper.jpg);
     /* background-color: #fe6601; */
     background-repeat: inherit;
 }
-
+ .colour-title {
+      background-color: #3498db; /* blue background */
+      padding: 20px;
+      margin: 20px;
+      border-radius: 10px;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
 .info{
     text-align: center;
     font-size: 25px;
