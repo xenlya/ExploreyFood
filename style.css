@@ -463,7 +463,7 @@ th,td{
 .list{
     font-size: 16px;
     padding-left: 20px;
-    list-style-type:square;
+    list-style-type:circle;
 }
 article {
     padding: 20px;
@@ -519,11 +519,12 @@ footer a:hover {
     text-decoration: none;
 }
 
-.caption{
+caption{
     text-align: center;
     font-weight: bold;
+    padding-bottom: 20px;
     font-size: 18px;
-
+    color: #000000;
 }
 
 .paragraph{
@@ -603,19 +604,21 @@ figcaption {
 }
 
 .table_dessert {
-    width: 100%;
+    width: 450px;
     border-collapse: collapse;
     margin: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .table_dessert th, .table_dessert td {
     padding: 10px;
-    border: 1px solid #ffc2d1;
+    border: 1px solid #c4a3f8;
     text-align: center;
 }
 
 .table_dessert th {
-    background-color: #ffdeeb;
+    background-color: #a586d6;
 }
 
 .table_dessert tr:nth-child(even) {
@@ -640,7 +643,8 @@ figcaption {
 /* feedback.html */
 
 body.feedback_body {
-    background-color: #f1f3f4;
+    /* background-color: #f1f3f4; */
+    background-image: url(https://images.unsplash.com/photo-1731018804371-16e02792b8d8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==);
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;

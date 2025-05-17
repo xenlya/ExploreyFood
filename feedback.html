@@ -12,6 +12,17 @@
 
 <body class="feedback_body">
   <header class="feeback_header_feedback">
+    <nav id="main-navigation" class="main-nav">
+      <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="breakfast.html" class="nav-link">Breakfast</a></li>
+          <li class="nav-item"><a href="Lunch.html" class="nav-link">Lunch</a></li>
+          <li class="nav-item"><a href="Dinner.html" class="nav-link">Dinner</a></li>
+          <li class="nav-item"><a href="dessert.html" class="nav-link">Dessert</a></li>
+          <li class="nav-item"><a href="MtT.html" class="nav-link">Meet The Team</a></li>
+          <li class="nav-item"><a href="feedback.html" class="nav-link active">Feedback</a></li>
+      </ul>
+  </nav>
     <h1 class="h1_feedback">Feedback</h1>
     <p>Thank you for choosing our website as your reference for your meals.</p>
   </header>
@@ -36,43 +47,64 @@
 
           <label for="visit-date">1. When did you last visit our site?</label>
           <input type="date" id="visit-date" name="visit-date">
-
-          <label for="visit-time">Time:</label>
+            <label for="visit-time">Time:</label>
           <input type="time" id="visit-time" name="visit-time">
 
           <label>2. Choose your favourite meal:</label>
-          <label><input type="checkbox" name="favourite_meal" value="Breakfast">Breakfast</label>
-          <label><input type="checkbox" name="favourite_meal" value="Lunch">Lunch</label>
-          <label><input type="checkbox" name="favourite_meal" value="Dinner">Dinner</label>
-          <label><input type="checkbox" name="favourite_meal" value="Dessert">Dessert</label>
+          <label>
+            <input type="checkbox" name="favourite_meal" value="Breakfast">Breakfast</label>
+          <label>
+            <input type="checkbox" name="favourite_meal" value="Lunch">Lunch</label>
+          <label>
+            <input type="checkbox" name="favourite_meal" value="Dinner">Dinner</label>
+          <label>
+            <input type="checkbox" name="favourite_meal" value="Dessert">Dessert</label>
 
           <label>3. Choose your favourite breakfast:</label>
-          <label><input type="radio" name="favourite_breakfast" value="Steamed Bun">Steamed Bun</label>
-          <label><input type="radio" name="favourite_breakfast" value="Idli Sambar">Idli Sambar</label>
-          <label><input type="radio" name="favourite_breakfast" value="Gimbap">Gimbap</label>
-          <label><input type="radio" name="favourite_breakfast" value="Natto">Natto</label>
+          <label>
+            <input type="radio" name="favourite_breakfast" value="Steamed Bun">Steamed Bun</label>
+          <label>
+            <input type="radio" name="favourite_breakfast" value="Idli Sambar">Idli Sambar</label>
+          <label>
+            <input type="radio" name="favourite_breakfast" value="Gimbap">Gimbap</label>
+          <label>
+            <input type="radio" name="favourite_breakfast" value="Natto">Natto</label>
 
           <label>4. Choose your favourite lunch:</label>
-          <label><input type="radio" name="favourite_lunch" value="Wanton Soup">Wanton Soup</label>
-          <label><input type="radio" name="favourite_lunch" value="Mutton Biryani">Mutton Biryani</label>
-          <label><input type="radio" name="favourite_lunch" value="Tteokbokki">Tteokbokki</label>
-          <label><input type="radio" name="favourite_lunch" value="Yakisoba">Yakisoba</label>
+          <label>
+            <input type="radio" name="favourite_lunch" value="Wanton Soup">Wanton Soup</label>
+          <label>
+            <input type="radio" name="favourite_lunch" value="Mutton Biryani">Mutton Biryani</label>
+          <label>
+            <input type="radio" name="favourite_lunch" value="Tteokbokki">Tteokbokki</label>
+          <label>
+            <input type="radio" name="favourite_lunch" value="Yakisoba">Yakisoba</label>
 
           <label>5. Choose your favourite dinner:</label>
-          <label><input type="radio" name="favourite_dinner" value="Chow Mein">Chow Mein</label>
-          <label><input type="radio" name="favourite_dinner" value="Methi Pakoda Kadhi">Methi Pakoda Kadhi</label>
-          <label><input type="radio" name="favourite_dinner" value="Bibimbap">Bibimbap</label>
-          <label><input type="radio" name="favourite_dinner" value="Beef Sukiyaki">Beef Sukiyaki</label>
+          <label>
+            <input type="radio" name="favourite_dinner" value="Chow Mein">Chow Mein</label>
+          <label>
+            <input type="radio" name="favourite_dinner" value="Methi Pakoda Kadhi">Methi Pakoda Kadhi</label>
+          <label>
+            <input type="radio" name="favourite_dinner" value="Bibimbap">Bibimbap</label>
+          <label>
+            <input type="radio" name="favourite_dinner" value="Beef Sukiyaki">Beef Sukiyaki</label>
 
           <label>6. Choose your favourite dessert:</label>
-          <label><input type="radio" name="favourite_dessert" value="Chinese">Chinese</label>
-          <label><input type="radio" name="favourite_dessert" value="Indian">Indian</label>
-          <label><input type="radio" name="favourite_dessert" value="Korean">Korean</label>
-          <label><input type="radio" name="favourite_dessert" value="Japanese">Japanese</label>
+          <label>
+            <input type="radio" name="favourite_dessert" value="Chinese">Tangyuan</label>
+          <label>
+            <input type="radio" name="favourite_dessert" value="Indian">Gulab Jamun</label>
+          <label>
+            <input type="radio" name="favourite_dessert" value="Korean">Patbingsu</label>
+          <label>
+            <input type="radio" name="favourite_dessert" value="Japanese">Daifuku Mochi</label>
 
           <label>7. Is the website easy to use?</label>
-          <label><input type="radio" name="usability" value="yes">Yes</label>
-          <label><input type="radio" name="usability" value="no">No</label>
+          <label>
+            <input type="radio" name="usability" value="yes">Yes</label>
+          <label>
+            <input type="radio" name="usability" value="no">No</label>
 
           <label for="interface">8. How is the interface?</label>
           <select name="interface" id="interface" required>
@@ -106,7 +138,7 @@
     <footer class="site-footer">
       <div class="footer-container">
           <p>&copy; 2025 My Website. All rights reserved.</p>
-          <p>Designed by Group 101 of Swinburne University of Technology Sarawak Campus</p>
+          <p>Designed by Group 1 of Swinburne University of Technology Sarawak Campus</p>
           <p>
               <a href="index.html">HOME</a>
               <a href="MtT.html">Meet the Team</a>
