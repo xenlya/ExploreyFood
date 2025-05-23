@@ -32,6 +32,10 @@ header p {
     margin-right: auto;
     width: 50%;
 }
+.categories_h2{
+    text-align: center;
+    font-size: 25px;
+}
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -156,6 +160,7 @@ a{
     font-style: normal;
     /* font-weight: bold; */
     text-align: justify;
+    padding-bottom: 10px;
 }
 
 /* Footer styles */
@@ -221,6 +226,7 @@ a{
     color: #333;
     font-size: 40px;
     margin-bottom: 10px;
+    text-align: center;
     font-size: 26px;
 
 }
@@ -332,6 +338,8 @@ ul,li{
 }
 
 /* Responsive Team Layout */
+/* enhancement for the floating animations */
+
 @media (max-width: 768px) {
     .team-container {
         flex-direction: column;
@@ -448,12 +456,15 @@ background-color:rgb(40, 61, 77);
 color: rgb(215, 224, 234);
 text-align: center;
 padding-top: 20px;
+/* padding-bottom: 20px; */
 border-radius: 50px;
+margin: 15px auto;
+max-width: 90%;
 }
 
-.steambun,figure img {
+figure img {
 border:5px solid rgb(48, 23, 3);
-margin-top: 8px;
+margin-top: 15px;
 text-align: center;
 }
 
@@ -539,8 +550,12 @@ caption{
     font-size: 18px;
     color: #000000;
 }
-
-.paragraph{
+.service-item{
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.paragraph {
     font-size: 18px;
     text-align: justify;
 }
@@ -742,6 +757,7 @@ fieldset {
     margin-bottom: 30px;
 }
 
+/* enhancement for the floating animations */
 
 @media (max-width: 768px) {
     .nav-list {
@@ -753,7 +769,6 @@ fieldset {
         padding: 10px;
     }
 }
-
 .header-top {
     display: flex;
     justify-content: center;
@@ -808,4 +823,10 @@ fieldset {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
+}
+
+.vivien_ul .vivien{
+    color: #666;
+    text-align: justify;
+    list-style-type: circle;
 }
